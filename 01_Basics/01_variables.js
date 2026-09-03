@@ -12,3 +12,9 @@ because of issue in block scope and functional scope
 
 console.table([username,email,password,accountname])
 
+/* Refer below documents
+
+https://tc39.es/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+*/

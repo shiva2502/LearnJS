@@ -47,3 +47,31 @@ let myObj = {
     name : "shiva", age : 33
 }
 console.log(myObj);
+
+
+// *****************************************Stack & Heap Memory*************************************************
+
+// Stack (primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchoudarydotcom";
+
+let anothername = myYoutubename;
+console.log(anothername);
+
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@woolies.com",
+    upi: "user@gpay"
+}
+
+
+let userTwo = userOne;
+
+userTwo.email = "shiva@google.com"
+
+console.log(userOne.email, userOne.upi);
+console.log(userTwo.email, userTwo.upi);

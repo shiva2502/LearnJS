@@ -16,12 +16,14 @@ console.log(ins); //Hitesh
 
 
 //*********************JSON-JavaScript Object Notation****************************/
-
+/*
 {
     "name":"Shiva",
     "location":"JNB"
     "Position":"ITS-Online"
 }
+*/
 
-//json formatter
+
+//json formatter webpage 
 

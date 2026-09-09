@@ -84,3 +84,5 @@ const course = {
 
 const {instructorName: ins} = course
 console.log(ins); //Hitesh
+
+//Object depth explained twoo videos

@@ -69,4 +69,18 @@ const users = [
 // console.log(instaUser.hasOwnProperty("activeUser")); // false
 
 
+// object de-structure
 
+const course = {
+    courseName: "JavaScript",
+    price: 999,
+    instructorName: "Hitesh"
+}
+
+// console.log(course.instructorName); //Hitesh
+
+// const {instructorName} = course
+// console.log(instructorName);  //Hitesh
+
+const {instructorName: ins} = course
+console.log(ins); //Hitesh

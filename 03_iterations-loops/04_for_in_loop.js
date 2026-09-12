@@ -21,5 +21,5 @@ const prgmshortcut = [".py",".java",".js",".c"]
 
 for (const key in prgmshortcut) {
     //console.log(key);
-    console.log(key, prgmshortcut[key]);    
+    //console.log(key, prgmshortcut[key]);    
 }

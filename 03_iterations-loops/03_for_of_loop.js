@@ -26,6 +26,8 @@
 
 //*************************   map  *****************************/
 //Duplicate values are not allowed in map
+//map cannot be iterable with for_of loop
+
 const map = new Map()
 
 map.set("RS", "Russia");
